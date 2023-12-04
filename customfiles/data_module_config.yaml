@@ -1,0 +1,17 @@
+
+train_transform:
+  resize_height: 500
+  resize_width: 375
+  normalize_mean: [0.5]
+  normalize_std: [0.5]
+test_transform:
+  resize_height: 500
+  resize_width: 375
+  normalize_mean: [0.5]
+  normalize_std: [0.5]
+data_module:
+  batch_size: 64
+  seed: 42
+  fraction_test: 0.5
+  small_subset: False
+  num_samples_small: 1024

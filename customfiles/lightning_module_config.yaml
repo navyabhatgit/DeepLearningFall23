@@ -1,0 +1,17 @@
+optimizer_cls: torch.optim.AdamW
+loss_fn: torch.nn.CrossEntropyLoss
+metric_cls: torchmetrics.Accuracy
+scheduler_cls: None
+scheduler_options: None      
+scheduler_params: None
+
+others:
+  optimizer_params:
+    weight_decay: 0
+  num_classes: 120
+  learning_rate: 0.0001
+  log_every_n_steps: 1
+  log_test_metrics: True
+  display_metrics: True
+
+

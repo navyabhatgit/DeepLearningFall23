@@ -1,0 +1,18 @@
+log_dir: "logs"
+lr_monitor:  
+  logging_interval: "step"
+model_checkpoint:
+  monitor: "val_metric"
+  mode: "max"
+  save_top_k: 1
+  save_last: true
+early_stopping:
+  monitor: "val_metric"
+  patience: 5
+  mode: "max"
+  verbose: True
+wandb:
+  project: "Imagenette"
+  name: "two_layer_bn"
+csv:
+  name: "csvlogger"
