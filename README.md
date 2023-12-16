@@ -22,3 +22,9 @@ Welcome to the Deep Learning course repository! This repository contains materia
 - Convolutional Neural Networks (CNN)
 - Image Classification Case Study
 - Image Segmentation Case Study
+
+  **Datasets:**
+  - FMNIST
+  - CIFAR10
+  - Dog Breed
+    
